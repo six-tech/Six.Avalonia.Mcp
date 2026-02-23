@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <RootNamespace>Six.Avalonia.Mcp.Server</RootNamespace>
+        <!-- Override apps/Directory.Build.props OutputType since this is a web app -->
+        <OutputType>Exe</OutputType>
+        
+        <Version>$(SixVersion)</Version>
+
+        <!-- dotnet tool packaging -->
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>six-avalonia-mcp</ToolCommandName>
+        <IsPackable>true</IsPackable>
+        <Description>MCP server for AI agent inspection of running Avalonia applications</Description>
+        <PackageTags>avalonia;mcp;model-context-protocol;ai;inspection;dotnet-tool</PackageTags>
+
+        <!-- Packaging metadata -->
+        <Authors>Six Technology</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ModelContextProtocol" Version="0.8.0-preview.1"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\libs\Six.Avalonia.Mcp.Contracts\Six.Avalonia.Mcp.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,511 @@
+{
+  "tasks": [
+    {
+      "id": "sprint-1-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/JsonOptions.cs\u0060 \u2014 static class with shared \u0060JsonSerializerOptions\u0060 (camelCase, ignore null, compact). Namespace: \u0060Six.Avalonia.Mcp\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/JsonOptions.cs\u0060 \u2014 static class with shared \u0060JsonSerializerOptions\u0060 (camelCase, ignore null, compact). Namespace: \u0060Six.Avalonia.Mcp\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/BoundsInfo.cs\u0060 \u2014 sealed record with \u0060X\u0060, \u0060Y\u0060, \u0060Width\u0060, \u0060Height\u0060 (all double, required). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/BoundsInfo.cs\u0060 \u2014 sealed record with \u0060X\u0060, \u0060Y\u0060, \u0060Width\u0060, \u0060Height\u0060 (all double, required). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/AppMetadata.cs\u0060 \u2014 sealed record with \u0060ProcessName\u0060, \u0060ProcessId\u0060, \u0060MainWindowTitle\u0060, \u0060AvaloniaVersion\u0060, \u0060DotNetVersion\u0060, \u0060WindowCount\u0060, \u0060WindowWidth\u0060, \u0060WindowHeight\u0060. Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/AppMetadata.cs\u0060 \u2014 sealed record with \u0060ProcessName\u0060, \u0060ProcessId\u0060, \u0060MainWindowTitle\u0060, \u0060AvaloniaVersion\u0060, \u0060DotNetVersion\u0060, \u0060WindowCount\u0060, \u0060WindowWidth\u0060, \u0060WindowHeight\u0060. Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/VisualTreeNode.cs\u0060 \u2014 sealed record with \u0060Type\u0060, \u0060Name\u0060, \u0060Bounds\u0060, \u0060IsVisible\u0060, \u0060IsEnabled\u0060, \u0060Opacity\u0060, \u0060IsFocused\u0060, \u0060IsPointerOver\u0060, \u0060Classes\u0060 (IReadOnlyList\u003Cstring\u003E), \u0060Children\u0060 (IReadOnlyList\u003CVisualTreeNode\u003E). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/VisualTreeNode.cs\u0060 \u2014 sealed record with \u0060Type\u0060, \u0060Name\u0060, \u0060Bounds\u0060, \u0060IsVisible\u0060, \u0060IsEnabled\u0060, \u0060Opacity\u0060, \u0060IsFocused\u0060, \u0060IsPointerOver\u0060, \u0060Classes\u0060 (IReadOnlyList\u003Cstring\u003E), \u0060Children\u0060 (IReadOnlyList\u003CVisualTreeNode\u003E). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-5",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/FindElementResult.cs\u0060 \u2014 sealed record with \u0060Type\u0060, \u0060Name\u0060, \u0060Bounds\u0060, \u0060Path\u0060 (IReadOnlyList\u003Cint\u003E), \u0060ElementId\u0060 (string, format \u0022path:0/2/1\u0022). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/FindElementResult.cs\u0060 \u2014 sealed record with \u0060Type\u0060, \u0060Name\u0060, \u0060Bounds\u0060, \u0060Path\u0060 (IReadOnlyList\u003Cint\u003E), \u0060ElementId\u0060 (string, format \u0022path:0/2/1\u0022). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-6",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/ElementProperties.cs\u0060 \u2014 sealed record with identity, geometry, state, appearance, layout, data, and style properties as defined in design.md. All appearance values as strings. Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/ElementProperties.cs\u0060 \u2014 sealed record with identity, geometry, state, appearance, layout, data, and style properties as defined in design.md. All appearance values as strings. Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-7",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/InteractionResult.cs\u0060 \u2014 sealed record with \u0060Success\u0060, \u0060ErrorMessage\u0060, \u0060ElementType\u0060, \u0060ElementName\u0060, \u0060IsFocused\u0060, \u0060IsEnabled\u0060, \u0060IsVisible\u0060, \u0060IsPointerOver\u0060 (nullable bools for post-state). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Models/InteractionResult.cs\u0060 \u2014 sealed record with \u0060Success\u0060, \u0060ErrorMessage\u0060, \u0060ElementType\u0060, \u0060ElementName\u0060, \u0060IsFocused\u0060, \u0060IsEnabled\u0060, \u0060IsVisible\u0060, \u0060IsPointerOver\u0060 (nullable bools for post-state). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-1-task-8",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create unit tests for all models in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Models/\u0060 \u2014 one test file per model. Test construction, JSON roundtrip serialization via \u0060JsonOptions.Default\u0060, null handling, and camelCase property naming. Use FluentAssertions roundtrip pattern (deserialize and compare, never exact string match). Verify the solution compiles (\u0060dotnet build\u0060) and tests pass (\u0060dotnet test\u0060).",
+      "description": "Create unit tests for all models in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Models/\u0060 \u2014 one test file per model. Test construction, JSON roundtrip serialization via \u0060JsonOptions.Default\u0060, null handling, and camelCase property naming. Use FluentAssertions roundtrip pattern (deserialize and compare, never exact string match). Verify the solution compiles (\u0060dotnet build\u0060) and tests pass (\u0060dotnet test\u0060).",
+      "status": "done",
+      "completedAtIteration": 1,
+      "sprintId": "sprint-1"
+    },
+    {
+      "id": "sprint-2-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Services/IAvaloniaInspector.cs\u0060 \u2014 interface with all methods as defined in design.md. Methods: \u0060GetAppMetadataAsync\u0060, \u0060GetVisualTreeAsync\u0060, \u0060FindElementAsync\u0060, \u0060GetAncestorChainAsync\u0060, \u0060GetElementPropertiesAsync\u0060, \u0060TakeScreenshotAsync\u0060, \u0060SimulateClickAsync\u0060, \u0060SimulateTypeAsync\u0060, \u0060SetControlStateAsync\u0060, \u0060SimulateHoverAsync\u0060, \u0060SimulateDragAsync\u0060, \u0060SimulateKeyboardShortcutAsync\u0060. All async with CancellationToken. Namespace: \u0060Six.Avalonia.Mcp.Services\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Services/IAvaloniaInspector.cs\u0060 \u2014 interface with all methods as defined in design.md. Methods: \u0060GetAppMetadataAsync\u0060, \u0060GetVisualTreeAsync\u0060, \u0060FindElementAsync\u0060, \u0060GetAncestorChainAsync\u0060, \u0060GetElementPropertiesAsync\u0060, \u0060TakeScreenshotAsync\u0060, \u0060SimulateClickAsync\u0060, \u0060SimulateTypeAsync\u0060, \u0060SetControlStateAsync\u0060, \u0060SimulateHoverAsync\u0060, \u0060SimulateDragAsync\u0060, \u0060SimulateKeyboardShortcutAsync\u0060. All async with CancellationToken. Namespace: \u0060Six.Avalonia.Mcp.Services\u0060.",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-2-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Services/AvaloniaInspector.cs\u0060 \u2014 class implementing \u0060IAvaloniaInspector\u0060. Constructor takes \u0060ILogger\u003CAvaloniaInspector\u003E\u0060. Add private helper method \u0060GetMainWindow()\u0060 that accesses \u0060Application.Current?.ApplicationLifetime\u0060 as \u0060IClassicDesktopStyleApplicationLifetime\u0060 and returns the \u0060MainWindow\u0060. Log warning if null. All public methods should be async stubs that throw \u0060NotImplementedException\u0060 for now (implemented in later sprints).",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Services/AvaloniaInspector.cs\u0060 \u2014 class implementing \u0060IAvaloniaInspector\u0060. Constructor takes \u0060ILogger\u003CAvaloniaInspector\u003E\u0060. Add private helper method \u0060GetMainWindow()\u0060 that accesses \u0060Application.Current?.ApplicationLifetime\u0060 as \u0060IClassicDesktopStyleApplicationLifetime\u0060 and returns the \u0060MainWindow\u0060. Log warning if null. All public methods should be async stubs that throw \u0060NotImplementedException\u0060 for now (implemented in later sprints).",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-2-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement internal helper: \u0060ResolveElement(Visual root, string? name, string? typeName, string? path)\u0060 on \u0060AvaloniaInspector\u0060. Walk the visual tree recursively. For \u0060name\u0060: match \u0060Visual.Name\u0060. For \u0060typeName\u0060: match \u0060visual.GetType().Name\u0060. For \u0060path\u0060: split on \u0060/\u0060, navigate by child index. Return null if not found. Mark internal (tested via InternalsVisibleTo).",
+      "description": "Implement internal helper: \u0060ResolveElement(Visual root, string? name, string? typeName, string? path)\u0060 on \u0060AvaloniaInspector\u0060. Walk the visual tree recursively. For \u0060name\u0060: match \u0060Visual.Name\u0060. For \u0060typeName\u0060: match \u0060visual.GetType().Name\u0060. For \u0060path\u0060: split on \u0060/\u0060, navigate by child index. Return null if not found. Mark internal (tested via InternalsVisibleTo).",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-2-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement internal helper: \u0060BuildPath(Visual root, Visual target)\u0060 \u2014 returns \u0060IReadOnlyList\u003Cint\u003E\u0060 of child indices from root to target. Walk tree with DFS, track indices. Mark internal.",
+      "description": "Implement internal helper: \u0060BuildPath(Visual root, Visual target)\u0060 \u2014 returns \u0060IReadOnlyList\u003Cint\u003E\u0060 of child indices from root to target. Walk tree with DFS, track indices. Mark internal.",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-2-task-5",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement internal helper: \u0060GenerateElementId(Visual root, Visual target)\u0060 \u2014 returns \u0060\u0022path:0/2/1\u0022\u0060 string using \u0060BuildPath\u0060. Mark internal.",
+      "description": "Implement internal helper: \u0060GenerateElementId(Visual root, Visual target)\u0060 \u2014 returns \u0060\u0022path:0/2/1\u0022\u0060 string using \u0060BuildPath\u0060. Mark internal.",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-2-task-6",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/McpServerHost.cs\u0060 \u2014 static class with \u0060AddAvaloniaMcpServer(IServiceCollection)\u0060 and \u0060AddAvaloniaMcpServer(IHostBuilder)\u0060 extension methods. Register \u0060IAvaloniaInspector\u0060 as singleton \u0060AvaloniaInspector\u0060. Call \u0060services.AddMcpServer(...)\u0060 with server info (name: \u0022Six.Avalonia.Mcp\u0022, version from assembly), \u0060.WithStdioServerTransport()\u0060, \u0060.WithToolsFromAssembly()\u0060. Add required usings for \u0060ModelContextProtocol.Server\u0060. Namespace: \u0060Six.Avalonia.Mcp\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/McpServerHost.cs\u0060 \u2014 static class with \u0060AddAvaloniaMcpServer(IServiceCollection)\u0060 and \u0060AddAvaloniaMcpServer(IHostBuilder)\u0060 extension methods. Register \u0060IAvaloniaInspector\u0060 as singleton \u0060AvaloniaInspector\u0060. Call \u0060services.AddMcpServer(...)\u0060 with server info (name: \u0022Six.Avalonia.Mcp\u0022, version from assembly), \u0060.WithStdioServerTransport()\u0060, \u0060.WithToolsFromAssembly()\u0060. Add required usings for \u0060ModelContextProtocol.Server\u0060. Namespace: \u0060Six.Avalonia.Mcp\u0060.",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-2-task-7",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create unit tests for element resolution helpers in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Services/AvaloniaInspectorTests.cs\u0060. Since Avalonia controls can\u0027t be easily instantiated in unit tests without a platform, test \u0060ParseKeyCombination\u0060 (Sprint 5) and model-level logic. For \u0060ResolveElement\u0060/\u0060BuildPath\u0060/\u0060GenerateElementId\u0060, add tests that document the expected behavior (may need to be integration-level or use Avalonia headless platform). Verify the solution builds and tests pass.",
+      "description": "Create unit tests for element resolution helpers in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Services/AvaloniaInspectorTests.cs\u0060. Since Avalonia controls can\u0027t be easily instantiated in unit tests without a platform, test \u0060ParseKeyCombination\u0060 (Sprint 5) and model-level logic. For \u0060ResolveElement\u0060/\u0060BuildPath\u0060/\u0060GenerateElementId\u0060, add tests that document the expected behavior (may need to be integration-level or use Avalonia headless platform). Verify the solution builds and tests pass.",
+      "status": "done",
+      "completedAtIteration": 2,
+      "sprintId": "sprint-2"
+    },
+    {
+      "id": "sprint-3-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.GetAppMetadataAsync()\u0060 \u2014 dispatch to UI thread, read process info (\u0060Process.GetCurrentProcess()\u0060), main window title/dimensions from \u0060GetMainWindow()\u0060, Avalonia version from \u0060typeof(Application).Assembly.GetName().Version\u0060, .NET version from \u0060Environment.Version\u0060. Return \u0060AppMetadata\u0060 record.",
+      "description": "Implement \u0060AvaloniaInspector.GetAppMetadataAsync()\u0060 \u2014 dispatch to UI thread, read process info (\u0060Process.GetCurrentProcess()\u0060), main window title/dimensions from \u0060GetMainWindow()\u0060, Avalonia version from \u0060typeof(Application).Assembly.GetName().Version\u0060, .NET version from \u0060Environment.Version\u0060. Return \u0060AppMetadata\u0060 record.",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement internal \u0060BuildTreeNode(Visual visual, int currentDepth, int maxDepth)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 recursive builder. Extract: \u0060Type\u0060 = \u0060visual.GetType().Name\u0060, \u0060Name\u0060 = \u0060(visual as Control)?.Name\u0060, \u0060Bounds\u0060 from \u0060visual.Bounds\u0060 (x, y, width, height), \u0060IsVisible\u0060/\u0060IsEnabled\u0060 from control properties (default true for non-Control visuals), \u0060Opacity\u0060, \u0060IsFocused\u0060 from \u0060(visual as InputElement)?.IsFocused\u0060, \u0060IsPointerOver\u0060 from \u0060(visual as InputElement)?.IsPointerOver\u0060, \u0060Classes\u0060 from \u0060(visual as StyledElement)?.Classes\u0060 (both style classes and pseudo-classes as strings), \u0060Children\u0060 recursively (stop at maxDepth). All on UI thread.",
+      "description": "Implement internal \u0060BuildTreeNode(Visual visual, int currentDepth, int maxDepth)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 recursive builder. Extract: \u0060Type\u0060 = \u0060visual.GetType().Name\u0060, \u0060Name\u0060 = \u0060(visual as Control)?.Name\u0060, \u0060Bounds\u0060 from \u0060visual.Bounds\u0060 (x, y, width, height), \u0060IsVisible\u0060/\u0060IsEnabled\u0060 from control properties (default true for non-Control visuals), \u0060Opacity\u0060, \u0060IsFocused\u0060 from \u0060(visual as InputElement)?.IsFocused\u0060, \u0060IsPointerOver\u0060 from \u0060(visual as InputElement)?.IsPointerOver\u0060, \u0060Classes\u0060 from \u0060(visual as StyledElement)?.Classes\u0060 (both style classes and pseudo-classes as strings), \u0060Children\u0060 recursively (stop at maxDepth). All on UI thread.",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.GetVisualTreeAsync(maxDepth, elementName, ct)\u0060 \u2014 dispatch to UI thread. If \u0060elementName\u0060 provided, resolve element first, else use main window. Call \u0060BuildTreeNode\u0060. Return \u0060VisualTreeNode\u0060. Clamp \u0060maxDepth\u0060 to range [1, 50].",
+      "description": "Implement \u0060AvaloniaInspector.GetVisualTreeAsync(maxDepth, elementName, ct)\u0060 \u2014 dispatch to UI thread. If \u0060elementName\u0060 provided, resolve element first, else use main window. Call \u0060BuildTreeNode\u0060. Return \u0060VisualTreeNode\u0060. Clamp \u0060maxDepth\u0060 to range [1, 50].",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.FindElementAsync(name, typeName, className, selector, maxResults, ct)\u0060 \u2014 dispatch to UI thread. Walk tree from main window. For \u0060selector\u0060, implement simple parser: \u0060\u0022Button#myBtn\u0022\u0060 = type Button with name myBtn, \u0060\u0022TextBox.error\u0022\u0060 = TextBox with class \u0022error\u0022, \u0060\u0022#myBtn\u0022\u0060 = any type with name myBtn, \u0060\u0022.error\u0022\u0060 = any type with class error. Return list of \u0060FindElementResult\u0060 with path and elementId. Limit to \u0060maxResults\u0060.",
+      "description": "Implement \u0060AvaloniaInspector.FindElementAsync(name, typeName, className, selector, maxResults, ct)\u0060 \u2014 dispatch to UI thread. Walk tree from main window. For \u0060selector\u0060, implement simple parser: \u0060\u0022Button#myBtn\u0022\u0060 = type Button with name myBtn, \u0060\u0022TextBox.error\u0022\u0060 = TextBox with class \u0022error\u0022, \u0060\u0022#myBtn\u0022\u0060 = any type with name myBtn, \u0060\u0022.error\u0022\u0060 = any type with class error. Return list of \u0060FindElementResult\u0060 with path and elementId. Limit to \u0060maxResults\u0060.",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-5",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.GetAncestorChainAsync(elementName, ct)\u0060 \u2014 dispatch to UI thread. Find element by name, then walk \u0060VisualParent\u0060 chain to root. Return array of \u0060VisualTreeNode\u0060 (one per ancestor, no children populated \u2014 just identity/bounds).",
+      "description": "Implement \u0060AvaloniaInspector.GetAncestorChainAsync(elementName, ct)\u0060 \u2014 dispatch to UI thread. Find element by name, then walk \u0060VisualParent\u0060 chain to root. Return array of \u0060VisualTreeNode\u0060 (one per ancestor, no children populated \u2014 just identity/bounds).",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-6",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.GetElementPropertiesAsync(elementName, typeName, path, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Extract all properties defined in \u0060ElementProperties\u0060 record: read Avalonia dependency properties, convert brushes to \u0060.ToString()\u0060, read margin/padding as comma-separated values, read DataContext type name. Return \u0060ElementProperties\u0060.",
+      "description": "Implement \u0060AvaloniaInspector.GetElementPropertiesAsync(elementName, typeName, path, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Extract all properties defined in \u0060ElementProperties\u0060 record: read Avalonia dependency properties, convert brushes to \u0060.ToString()\u0060, read margin/padding as comma-separated values, read DataContext type name. Return \u0060ElementProperties\u0060.",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-7",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/MetadataTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with \u0060[McpServerTool(Name = \u0022get_app_metadata\u0022)]\u0060 method. Takes \u0060IAvaloniaInspector\u0060, calls \u0060GetAppMetadataAsync\u0060, serializes with \u0060JsonOptions.Default\u0060. Wrap in try/catch returning error JSON on failure.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/MetadataTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with \u0060[McpServerTool(Name = \u0022get_app_metadata\u0022)]\u0060 method. Takes \u0060IAvaloniaInspector\u0060, calls \u0060GetAppMetadataAsync\u0060, serializes with \u0060JsonOptions.Default\u0060. Wrap in try/catch returning error JSON on failure.",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-3-task-8",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/InspectionTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with 4 tools: \u0060get_visual_tree\u0060, \u0060find_element\u0060, \u0060get_element_properties\u0060, \u0060get_ancestor_chain\u0060. Each takes \u0060IAvaloniaInspector\u0060 \u002B parameters, delegates to inspector, serializes result. All wrapped in try/catch. Verify solution builds. Add unit tests for tool classes in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/InspectionToolsTests.cs\u0060 and \u0060MetadataToolsTests.cs\u0060 \u2014 mock \u0060IAvaloniaInspector\u0060, verify JSON serialization and error handling.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/InspectionTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with 4 tools: \u0060get_visual_tree\u0060, \u0060find_element\u0060, \u0060get_element_properties\u0060, \u0060get_ancestor_chain\u0060. Each takes \u0060IAvaloniaInspector\u0060 \u002B parameters, delegates to inspector, serializes result. All wrapped in try/catch. Verify solution builds. Add unit tests for tool classes in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/InspectionToolsTests.cs\u0060 and \u0060MetadataToolsTests.cs\u0060 \u2014 mock \u0060IAvaloniaInspector\u0060, verify JSON serialization and error handling.",
+      "status": "done",
+      "completedAtIteration": 3,
+      "sprintId": "sprint-3"
+    },
+    {
+      "id": "sprint-4-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement internal \u0060RenderToBase64Async(Visual visual, double scale)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 dispatch to UI thread. Create \u0060RenderTargetBitmap\u0060 with \u0060new RenderTargetBitmap(new PixelSize((int)(bounds.Width * scale), (int)(bounds.Height * scale)), new Vector(96 * scale, 96 * scale))\u0060. Call \u0060renderTarget.Render(visual)\u0060. Save to \u0060MemoryStream\u0060 as PNG via \u0060renderTarget.Save(stream)\u0060. Convert to base64. Return tuple \u0060(base64String, pixelWidth, pixelHeight)\u0060.",
+      "description": "Implement internal \u0060RenderToBase64Async(Visual visual, double scale)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 dispatch to UI thread. Create \u0060RenderTargetBitmap\u0060 with \u0060new RenderTargetBitmap(new PixelSize((int)(bounds.Width * scale), (int)(bounds.Height * scale)), new Vector(96 * scale, 96 * scale))\u0060. Call \u0060renderTarget.Render(visual)\u0060. Save to \u0060MemoryStream\u0060 as PNG via \u0060renderTarget.Save(stream)\u0060. Convert to base64. Return tuple \u0060(base64String, pixelWidth, pixelHeight)\u0060.",
+      "status": "done",
+      "completedAtIteration": 4,
+      "sprintId": "sprint-4"
+    },
+    {
+      "id": "sprint-4-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.TakeScreenshotAsync(elementName, scaleFactor, ct)\u0060 \u2014 if \u0060elementName\u0060 is null, capture main window; else resolve element. Validate \u0060scaleFactor\u0060 in [0.5, 3.0]. Call \u0060RenderToBase64Async\u0060. Return \u0060(base64, width, height)\u0060 tuple. Handle errors: if visual has zero size, return error.",
+      "description": "Implement \u0060AvaloniaInspector.TakeScreenshotAsync(elementName, scaleFactor, ct)\u0060 \u2014 if \u0060elementName\u0060 is null, capture main window; else resolve element. Validate \u0060scaleFactor\u0060 in [0.5, 3.0]. Call \u0060RenderToBase64Async\u0060. Return \u0060(base64, width, height)\u0060 tuple. Handle errors: if visual has zero size, return error.",
+      "status": "done",
+      "completedAtIteration": 4,
+      "sprintId": "sprint-4"
+    },
+    {
+      "id": "sprint-4-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/ScreenshotTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with \u0060[McpServerTool(Name = \u0022take_screenshot\u0022)]\u0060 method. Takes \u0060IAvaloniaInspector\u0060, \u0060elementName?\u0060, \u0060scaleFactor?\u0060. Calls \u0060TakeScreenshotAsync\u0060. Returns JSON: \u0060{\u0022base64Png\u0022: \u0022...\u0022, \u0022width\u0022: N, \u0022height\u0022: N}\u0060. Try/catch wrapper.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/ScreenshotTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with \u0060[McpServerTool(Name = \u0022take_screenshot\u0022)]\u0060 method. Takes \u0060IAvaloniaInspector\u0060, \u0060elementName?\u0060, \u0060scaleFactor?\u0060. Calls \u0060TakeScreenshotAsync\u0060. Returns JSON: \u0060{\u0022base64Png\u0022: \u0022...\u0022, \u0022width\u0022: N, \u0022height\u0022: N}\u0060. Try/catch wrapper.",
+      "status": "done",
+      "completedAtIteration": 4,
+      "sprintId": "sprint-4"
+    },
+    {
+      "id": "sprint-4-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create unit tests in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/ScreenshotToolsTests.cs\u0060 \u2014 mock inspector returning a known base64 string. Verify JSON structure. Test error cases (element not found). Verify solution builds and tests pass.",
+      "description": "Create unit tests in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/ScreenshotToolsTests.cs\u0060 \u2014 mock inspector returning a known base64 string. Verify JSON structure. Test error cases (element not found). Verify solution builds and tests pass.",
+      "status": "done",
+      "completedAtIteration": 4,
+      "sprintId": "sprint-4"
+    },
+    {
+      "id": "sprint-5-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Services/MockPointer.cs\u0060 \u2014 internal sealed class implementing \u0060Avalonia.Input.IPointer\u0060. Properties: \u0060Id = 0\u0060, \u0060Captured = null\u0060, \u0060Type = PointerType.Mouse\u0060. Methods: \u0060Capture(IInputElement?)\u0060 \u2014 no-op. This is needed because Avalonia pointer event constructors require an \u0060IPointer\u0060 instance. Namespace: \u0060Six.Avalonia.Mcp.Services\u0060.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Services/MockPointer.cs\u0060 \u2014 internal sealed class implementing \u0060Avalonia.Input.IPointer\u0060. Properties: \u0060Id = 0\u0060, \u0060Captured = null\u0060, \u0060Type = PointerType.Mouse\u0060. Methods: \u0060Capture(IInputElement?)\u0060 \u2014 no-op. This is needed because Avalonia pointer event constructors require an \u0060IPointer\u0060 instance. Namespace: \u0060Six.Avalonia.Mcp.Services\u0060.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-5-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.SimulateClickAsync(elementName, button, x, y, modifiers, clickCount, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Calculate position: if x/y null, use center of element bounds. Map \u0060button\u0060 string to \u0060MouseButton\u0060 enum. Map \u0060modifiers\u0060 string to \u0060KeyModifiers\u0060 (parse \u0022ctrl\u0022, \u0022shift\u0022, \u0022alt\u0022). Create \u0060PointerPointProperties(rawModifiers, PointerUpdateKind.LeftButtonPressed)\u0060. Construct \u0060PointerPressedEventArgs\u0060 with positional args per Avalonia 11.3.11 API (source, new MockPointer(), rootVisual, position, timestamp, properties, keyModifiers, clickCount). Call \u0060element.RaiseEvent(pressArgs)\u0060. Then construct \u0060PointerReleasedEventArgs\u0060 and call \u0060element.RaiseEvent(releaseArgs)\u0060. Return \u0060InteractionResult\u0060 with post-state.",
+      "description": "Implement \u0060AvaloniaInspector.SimulateClickAsync(elementName, button, x, y, modifiers, clickCount, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Calculate position: if x/y null, use center of element bounds. Map \u0060button\u0060 string to \u0060MouseButton\u0060 enum. Map \u0060modifiers\u0060 string to \u0060KeyModifiers\u0060 (parse \u0022ctrl\u0022, \u0022shift\u0022, \u0022alt\u0022). Create \u0060PointerPointProperties(rawModifiers, PointerUpdateKind.LeftButtonPressed)\u0060. Construct \u0060PointerPressedEventArgs\u0060 with positional args per Avalonia 11.3.11 API (source, new MockPointer(), rootVisual, position, timestamp, properties, keyModifiers, clickCount). Call \u0060element.RaiseEvent(pressArgs)\u0060. Then construct \u0060PointerReleasedEventArgs\u0060 and call \u0060element.RaiseEvent(releaseArgs)\u0060. Return \u0060InteractionResult\u0060 with post-state.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-5-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.SimulateTypeAsync(elementName, text, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Focus it first via \u0060(element as InputElement)?.Focus()\u0060. For each char in text: if printable, raise \u0060TextInputEvent\u0060 with the char. If special key (detect \u0060\\b\u0060 for Backspace, \u0060\\n\u0060 for Enter, \u0060\\t\u0060 for Tab), raise \u0060KeyDown\u0060/\u0060KeyUp\u0060 with the corresponding \u0060Key\u0060 enum value. Return \u0060InteractionResult\u0060 with post-state.",
+      "description": "Implement \u0060AvaloniaInspector.SimulateTypeAsync(elementName, text, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Focus it first via \u0060(element as InputElement)?.Focus()\u0060. For each char in text: if printable, raise \u0060TextInputEvent\u0060 with the char. If special key (detect \u0060\\b\u0060 for Backspace, \u0060\\n\u0060 for Enter, \u0060\\t\u0060 for Tab), raise \u0060KeyDown\u0060/\u0060KeyUp\u0060 with the corresponding \u0060Key\u0060 enum value. Return \u0060InteractionResult\u0060 with post-state.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-5-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.SetControlStateAsync(elementName, stateType, value, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Parse \u0060stateType\u0060: \u0060\u0022focus\u0022\u0060 \u2192 call \u0060Focus()\u0060 or blur, \u0060\u0022enabled\u0022\u0060 \u2192 set \u0060IsEnabled\u0060, \u0060\u0022visible\u0022\u0060 \u2192 set \u0060IsVisible\u0060. Return \u0060InteractionResult\u0060 with new state values.",
+      "description": "Implement \u0060AvaloniaInspector.SetControlStateAsync(elementName, stateType, value, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Parse \u0060stateType\u0060: \u0060\u0022focus\u0022\u0060 \u2192 call \u0060Focus()\u0060 or blur, \u0060\u0022enabled\u0022\u0060 \u2192 set \u0060IsEnabled\u0060, \u0060\u0022visible\u0022\u0060 \u2192 set \u0060IsVisible\u0060. Return \u0060InteractionResult\u0060 with new state values.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-5-task-5",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement internal \u0060ParseKeyCombination(string keys)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 parse key combo strings like \u0060\u0022Ctrl\u002BS\u0022\u0060, \u0060\u0022Ctrl\u002BShift\u002BZ\u0022\u0060, \u0060\u0022Alt\u002BF4\u0022\u0060. Split on \u0060\u002B\u0060, identify modifiers (Ctrl/Shift/Alt/Meta), remaining part is primary key parsed via \u0060Enum.TryParse\u003CKey\u003E\u0060. Return \u0060(KeyModifiers, Key)\u0060 tuple. Mark internal.",
+      "description": "Implement internal \u0060ParseKeyCombination(string keys)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 parse key combo strings like \u0060\u0022Ctrl\u002BS\u0022\u0060, \u0060\u0022Ctrl\u002BShift\u002BZ\u0022\u0060, \u0060\u0022Alt\u002BF4\u0022\u0060. Split on \u0060\u002B\u0060, identify modifiers (Ctrl/Shift/Alt/Meta), remaining part is primary key parsed via \u0060Enum.TryParse\u003CKey\u003E\u0060. Return \u0060(KeyModifiers, Key)\u0060 tuple. Mark internal.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-5-task-6",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/InteractionTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with 3 initial tools: \u0060simulate_click\u0060, \u0060simulate_type\u0060, \u0060set_control_state\u0060. Each takes \u0060IAvaloniaInspector\u0060 \u002B parameters, delegates to inspector, serializes result. Try/catch wrapper.",
+      "description": "Create \u0060libs/Six.Avalonia.Mcp/src/Tools/InteractionTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with 3 initial tools: \u0060simulate_click\u0060, \u0060simulate_type\u0060, \u0060set_control_state\u0060. Each takes \u0060IAvaloniaInspector\u0060 \u002B parameters, delegates to inspector, serializes result. Try/catch wrapper.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-5-task-7",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create unit tests: \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/InteractionToolsTests.cs\u0060 \u2014 mock inspector, verify delegation and JSON output for click/type/state tools. Also test \u0060ParseKeyCombination\u0060 directly (internal access). Test edge cases: unknown button name, empty text, invalid state type. Verify solution builds and tests pass.",
+      "description": "Create unit tests: \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/InteractionToolsTests.cs\u0060 \u2014 mock inspector, verify delegation and JSON output for click/type/state tools. Also test \u0060ParseKeyCombination\u0060 directly (internal access). Test edge cases: unknown button name, empty text, invalid state type. Verify solution builds and tests pass.",
+      "status": "done",
+      "completedAtIteration": 5,
+      "sprintId": "sprint-5"
+    },
+    {
+      "id": "sprint-6-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.SimulateHoverAsync(elementName, exitAfter, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Construct \u0060PointerEventArgs\u0060 with \u0060PointerEntered\u0060 routed event (source, MockPointer, rootVisual, center position, timestamp, properties, modifiers). Call \u0060element.RaiseEvent(enterArgs)\u0060. Then construct \u0060PointerMoved\u0060 event and raise it. If \u0060exitAfter\u0060 is true, construct and raise \u0060PointerExited\u0060 event. Return \u0060InteractionResult\u0060.",
+      "description": "Implement \u0060AvaloniaInspector.SimulateHoverAsync(elementName, exitAfter, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Construct \u0060PointerEventArgs\u0060 with \u0060PointerEntered\u0060 routed event (source, MockPointer, rootVisual, center position, timestamp, properties, modifiers). Call \u0060element.RaiseEvent(enterArgs)\u0060. Then construct \u0060PointerMoved\u0060 event and raise it. If \u0060exitAfter\u0060 is true, construct and raise \u0060PointerExited\u0060 event. Return \u0060InteractionResult\u0060.",
+      "status": "done",
+      "completedAtIteration": 6,
+      "sprintId": "sprint-6"
+    },
+    {
+      "id": "sprint-6-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.SimulateDragAsync(elementName, startX, startY, endX, endY, button, steps, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Create \u0060PointerPressedEventArgs\u0060 at (startX, startY) and raise. Then generate \u0060steps\u0060 intermediate points linearly interpolated from start to end, raise \u0060PointerMoved\u0060 for each. Finally raise \u0060PointerReleasedEventArgs\u0060 at (endX, endY). Return \u0060InteractionResult\u0060.",
+      "description": "Implement \u0060AvaloniaInspector.SimulateDragAsync(elementName, startX, startY, endX, endY, button, steps, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Create \u0060PointerPressedEventArgs\u0060 at (startX, startY) and raise. Then generate \u0060steps\u0060 intermediate points linearly interpolated from start to end, raise \u0060PointerMoved\u0060 for each. Finally raise \u0060PointerReleasedEventArgs\u0060 at (endX, endY). Return \u0060InteractionResult\u0060.",
+      "status": "done",
+      "completedAtIteration": 6,
+      "sprintId": "sprint-6"
+    },
+    {
+      "id": "sprint-6-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Implement \u0060AvaloniaInspector.SimulateKeyboardShortcutAsync(keys, elementName, ct)\u0060 \u2014 dispatch to UI thread. If \u0060elementName\u0060 provided, resolve and focus it; else use currently focused element or main window. Call \u0060ParseKeyCombination(keys)\u0060. Raise \u0060KeyDown\u0060 with modifiers \u002B primary key. Then raise \u0060KeyUp\u0060 for primary key and modifiers. Return \u0060InteractionResult\u0060.",
+      "description": "Implement \u0060AvaloniaInspector.SimulateKeyboardShortcutAsync(keys, elementName, ct)\u0060 \u2014 dispatch to UI thread. If \u0060elementName\u0060 provided, resolve and focus it; else use currently focused element or main window. Call \u0060ParseKeyCombination(keys)\u0060. Raise \u0060KeyDown\u0060 with modifiers \u002B primary key. Then raise \u0060KeyUp\u0060 for primary key and modifiers. Return \u0060InteractionResult\u0060.",
+      "status": "done",
+      "completedAtIteration": 6,
+      "sprintId": "sprint-6"
+    },
+    {
+      "id": "sprint-6-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Add \u0060simulate_hover\u0060, \u0060simulate_drag\u0060, \u0060simulate_keyboard_shortcut\u0060 tools to \u0060InteractionTools.cs\u0060 \u2014 3 new \u0060[McpServerTool]\u0060 methods delegating to the inspector. Wrap in try/catch.",
+      "description": "Add \u0060simulate_hover\u0060, \u0060simulate_drag\u0060, \u0060simulate_keyboard_shortcut\u0060 tools to \u0060InteractionTools.cs\u0060 \u2014 3 new \u0060[McpServerTool]\u0060 methods delegating to the inspector. Wrap in try/catch.",
+      "status": "done",
+      "completedAtIteration": 6,
+      "sprintId": "sprint-6"
+    },
+    {
+      "id": "sprint-6-task-5",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Create/extend unit tests in \u0060InteractionToolsTests.cs\u0060 \u2014 test hover, drag, and keyboard shortcut tool methods with mocked inspector. Test \u0060ParseKeyCombination\u0060 edge cases: single key (\u0022F5\u0022), modifier-only (\u0022Ctrl\u0022), triple modifier (\u0022Ctrl\u002BShift\u002BAlt\u002BS\u0022), case insensitivity. Verify solution builds and all tests pass.",
+      "description": "Create/extend unit tests in \u0060InteractionToolsTests.cs\u0060 \u2014 test hover, drag, and keyboard shortcut tool methods with mocked inspector. Test \u0060ParseKeyCombination\u0060 edge cases: single key (\u0022F5\u0022), modifier-only (\u0022Ctrl\u0022), triple modifier (\u0022Ctrl\u002BShift\u002BAlt\u002BS\u0022), case insensitivity. Verify solution builds and all tests pass.",
+      "status": "done",
+      "completedAtIteration": 6,
+      "sprintId": "sprint-6"
+    },
+    {
+      "id": "sprint-7-task-1",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Update \u0060apps/Six.Avalonia.Mcp/Views/MainWindow.axaml\u0060 \u2014 add a testbed UI with named controls. Include: a \u0060TextBox\u0060 (x:Name=\u0022InputTextBox\u0022), a \u0060Button\u0060 (x:Name=\u0022ActionButton\u0022, Content=\u0022Click Me\u0022), a \u0060CheckBox\u0060 (x:Name=\u0022ToggleCheckBox\u0022), a \u0060Slider\u0060 (x:Name=\u0022ValueSlider\u0022), a \u0060ComboBox\u0060 (x:Name=\u0022SelectComboBox\u0022), a \u0060ListBox\u0060 (x:Name=\u0022ItemListBox\u0022), a \u0060TextBlock\u0060 (x:Name=\u0022StatusText\u0022, Text=\u0022Ready\u0022), and layout panels (Grid, StackPanel). All controls should have meaningful x:Name values for agent discovery.",
+      "description": "Update \u0060apps/Six.Avalonia.Mcp/Views/MainWindow.axaml\u0060 \u2014 add a testbed UI with named controls. Include: a \u0060TextBox\u0060 (x:Name=\u0022InputTextBox\u0022), a \u0060Button\u0060 (x:Name=\u0022ActionButton\u0022, Content=\u0022Click Me\u0022), a \u0060CheckBox\u0060 (x:Name=\u0022ToggleCheckBox\u0022), a \u0060Slider\u0060 (x:Name=\u0022ValueSlider\u0022), a \u0060ComboBox\u0060 (x:Name=\u0022SelectComboBox\u0022), a \u0060ListBox\u0060 (x:Name=\u0022ItemListBox\u0022), a \u0060TextBlock\u0060 (x:Name=\u0022StatusText\u0022, Text=\u0022Ready\u0022), and layout panels (Grid, StackPanel). All controls should have meaningful x:Name values for agent discovery.",
+      "status": "done",
+      "completedAtIteration": 7,
+      "sprintId": "sprint-7"
+    },
+    {
+      "id": "sprint-7-task-2",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Update \u0060apps/Six.Avalonia.Mcp/ViewModels/MainWindowViewModel.cs\u0060 \u2014 add properties: \u0060StatusMessage\u0060 (string, bound to StatusText), \u0060InputText\u0060 (string, bound to InputTextBox), \u0060IsToggled\u0060 (bool, bound to CheckBox), \u0060SliderValue\u0060 (double, bound to Slider), \u0060Items\u0060 (ObservableCollection\u003Cstring\u003E). Add \u0060OnActionButtonClick\u0060 command handler that updates \u0060StatusMessage\u0060 to \u0022Button clicked at {timestamp}\u0022. Wire up INotifyPropertyChanged.",
+      "description": "Update \u0060apps/Six.Avalonia.Mcp/ViewModels/MainWindowViewModel.cs\u0060 \u2014 add properties: \u0060StatusMessage\u0060 (string, bound to StatusText), \u0060InputText\u0060 (string, bound to InputTextBox), \u0060IsToggled\u0060 (bool, bound to CheckBox), \u0060SliderValue\u0060 (double, bound to Slider), \u0060Items\u0060 (ObservableCollection\u003Cstring\u003E). Add \u0060OnActionButtonClick\u0060 command handler that updates \u0060StatusMessage\u0060 to \u0022Button clicked at {timestamp}\u0022. Wire up INotifyPropertyChanged.",
+      "status": "done",
+      "completedAtIteration": 7,
+      "sprintId": "sprint-7"
+    },
+    {
+      "id": "sprint-7-task-3",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Update \u0060apps/Six.Avalonia.Mcp/Views/MainWindow.axaml.cs\u0060 \u2014 wire up button click handler to ViewModel command. Verify data bindings work (compiled bindings enabled).",
+      "description": "Update \u0060apps/Six.Avalonia.Mcp/Views/MainWindow.axaml.cs\u0060 \u2014 wire up button click handler to ViewModel command. Verify data bindings work (compiled bindings enabled).",
+      "status": "done",
+      "completedAtIteration": 7,
+      "sprintId": "sprint-7"
+    },
+    {
+      "id": "sprint-7-task-4",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Verify the complete solution builds: \u0060dotnet build Six.Avalonia.Mcp.slnx\u0060. Fix any compilation errors.",
+      "description": "Verify the complete solution builds: \u0060dotnet build Six.Avalonia.Mcp.slnx\u0060. Fix any compilation errors.",
+      "status": "done",
+      "completedAtIteration": 7,
+      "sprintId": "sprint-7"
+    },
+    {
+      "id": "sprint-7-task-5",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Run all unit tests: \u0060dotnet test Six.Avalonia.Mcp.slnx --collect:\u0022XPlat Code Coverage\u0022\u0060. Verify \u2265 80% coverage threshold is met. Fix any failing tests.",
+      "description": "Run all unit tests: \u0060dotnet test Six.Avalonia.Mcp.slnx --collect:\u0022XPlat Code Coverage\u0022\u0060. Verify \u2265 80% coverage threshold is met. Fix any failing tests.",
+      "status": "done",
+      "completedAtIteration": 7,
+      "sprintId": "sprint-7"
+    },
+    {
+      "id": "sprint-7-task-6",
+      "prdFile": ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md",
+      "title": "Verify MCP tool discovery works: confirm that running the demo app outputs MCP JSON-RPC responses on stdout when MCP initialize/list_tools requests are sent on stdin. Document any issues found.",
+      "description": "Verify MCP tool discovery works: confirm that running the demo app outputs MCP JSON-RPC responses on stdout when MCP initialize/list_tools requests are sent on stdin. Document any issues found.",
+      "status": "done",
+      "completedAtIteration": 7,
+      "sprintId": "sprint-7"
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint-1",
+      "title": "Data Models and JSON Infrastructure",
+      "description": "Foundation sprint: create all data models, JSON serialization helpers, and establish the project file structure. No Avalonia dependencies in this sprint \u2014 pure C# records and serialization.\r\n\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/JsonOptions.cs\u0060 \u2014 static class with shared \u0060JsonSerializerOptions\u0060 (camelCase, ignore null, compact). Namespace: \u0060Six.Avalonia.Mcp\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Models/BoundsInfo.cs\u0060 \u2014 sealed record with \u0060X\u0060, \u0060Y\u0060, \u0060Width\u0060, \u0060Height\u0060 (all double, required). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Models/AppMetadata.cs\u0060 \u2014 sealed record with \u0060ProcessName\u0060, \u0060ProcessId\u0060, \u0060MainWindowTitle\u0060, \u0060AvaloniaVersion\u0060, \u0060DotNetVersion\u0060, \u0060WindowCount\u0060, \u0060WindowWidth\u0060, \u0060WindowHeight\u0060. Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Models/VisualTreeNode.cs\u0060 \u2014 sealed record with \u0060Type\u0060, \u0060Name\u0060, \u0060Bounds\u0060, \u0060IsVisible\u0060, \u0060IsEnabled\u0060, \u0060Opacity\u0060, \u0060IsFocused\u0060, \u0060IsPointerOver\u0060, \u0060Classes\u0060 (IReadOnlyList\u003Cstring\u003E), \u0060Children\u0060 (IReadOnlyList\u003CVisualTreeNode\u003E). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Models/FindElementResult.cs\u0060 \u2014 sealed record with \u0060Type\u0060, \u0060Name\u0060, \u0060Bounds\u0060, \u0060Path\u0060 (IReadOnlyList\u003Cint\u003E), \u0060ElementId\u0060 (string, format \u0022path:0/2/1\u0022). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Models/ElementProperties.cs\u0060 \u2014 sealed record with identity, geometry, state, appearance, layout, data, and style properties as defined in design.md. All appearance values as strings. Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Models/InteractionResult.cs\u0060 \u2014 sealed record with \u0060Success\u0060, \u0060ErrorMessage\u0060, \u0060ElementType\u0060, \u0060ElementName\u0060, \u0060IsFocused\u0060, \u0060IsEnabled\u0060, \u0060IsVisible\u0060, \u0060IsPointerOver\u0060 (nullable bools for post-state). Namespace: \u0060Six.Avalonia.Mcp.Models\u0060.\r\n- [ ] Create unit tests for all models in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Models/\u0060 \u2014 one test file per model. Test construction, JSON roundtrip serialization via \u0060JsonOptions.Default\u0060, null handling, and camelCase property naming. Use FluentAssertions roundtrip pattern (deserialize and compare, never exact string match). Verify the solution compiles (\u0060dotnet build\u0060) and tests pass (\u0060dotnet test\u0060).",
+      "taskIds": [
+        "sprint-1-task-1",
+        "sprint-1-task-2",
+        "sprint-1-task-3",
+        "sprint-1-task-4",
+        "sprint-1-task-5",
+        "sprint-1-task-6",
+        "sprint-1-task-7",
+        "sprint-1-task-8"
+      ]
+    },
+    {
+      "id": "sprint-2",
+      "title": "Inspector Interface, Element Resolution, and DI Registration",
+      "description": "Build the inspector service interface, the DI registration entry point, and internal helper methods for element resolution. This sprint connects the models to Avalonia\u0027s visual tree.\r\n\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Services/IAvaloniaInspector.cs\u0060 \u2014 interface with all methods as defined in design.md. Methods: \u0060GetAppMetadataAsync\u0060, \u0060GetVisualTreeAsync\u0060, \u0060FindElementAsync\u0060, \u0060GetAncestorChainAsync\u0060, \u0060GetElementPropertiesAsync\u0060, \u0060TakeScreenshotAsync\u0060, \u0060SimulateClickAsync\u0060, \u0060SimulateTypeAsync\u0060, \u0060SetControlStateAsync\u0060, \u0060SimulateHoverAsync\u0060, \u0060SimulateDragAsync\u0060, \u0060SimulateKeyboardShortcutAsync\u0060. All async with CancellationToken. Namespace: \u0060Six.Avalonia.Mcp.Services\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Services/AvaloniaInspector.cs\u0060 \u2014 class implementing \u0060IAvaloniaInspector\u0060. Constructor takes \u0060ILogger\u003CAvaloniaInspector\u003E\u0060. Add private helper method \u0060GetMainWindow()\u0060 that accesses \u0060Application.Current?.ApplicationLifetime\u0060 as \u0060IClassicDesktopStyleApplicationLifetime\u0060 and returns the \u0060MainWindow\u0060. Log warning if null. All public methods should be async stubs that throw \u0060NotImplementedException\u0060 for now (implemented in later sprints).\r\n- [ ] Implement internal helper: \u0060ResolveElement(Visual root, string? name, string? typeName, string? path)\u0060 on \u0060AvaloniaInspector\u0060. Walk the visual tree recursively. For \u0060name\u0060: match \u0060Visual.Name\u0060. For \u0060typeName\u0060: match \u0060visual.GetType().Name\u0060. For \u0060path\u0060: split on \u0060/\u0060, navigate by child index. Return null if not found. Mark internal (tested via InternalsVisibleTo).\r\n- [ ] Implement internal helper: \u0060BuildPath(Visual root, Visual target)\u0060 \u2014 returns \u0060IReadOnlyList\u003Cint\u003E\u0060 of child indices from root to target. Walk tree with DFS, track indices. Mark internal.\r\n- [ ] Implement internal helper: \u0060GenerateElementId(Visual root, Visual target)\u0060 \u2014 returns \u0060\u0022path:0/2/1\u0022\u0060 string using \u0060BuildPath\u0060. Mark internal.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/McpServerHost.cs\u0060 \u2014 static class with \u0060AddAvaloniaMcpServer(IServiceCollection)\u0060 and \u0060AddAvaloniaMcpServer(IHostBuilder)\u0060 extension methods. Register \u0060IAvaloniaInspector\u0060 as singleton \u0060AvaloniaInspector\u0060. Call \u0060services.AddMcpServer(...)\u0060 with server info (name: \u0022Six.Avalonia.Mcp\u0022, version from assembly), \u0060.WithStdioServerTransport()\u0060, \u0060.WithToolsFromAssembly()\u0060. Add required usings for \u0060ModelContextProtocol.Server\u0060. Namespace: \u0060Six.Avalonia.Mcp\u0060.\r\n- [ ] Create unit tests for element resolution helpers in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Services/AvaloniaInspectorTests.cs\u0060. Since Avalonia controls can\u0027t be easily instantiated in unit tests without a platform, test \u0060ParseKeyCombination\u0060 (Sprint 5) and model-level logic. For \u0060ResolveElement\u0060/\u0060BuildPath\u0060/\u0060GenerateElementId\u0060, add tests that document the expected behavior (may need to be integration-level or use Avalonia headless platform). Verify the solution builds and tests pass.",
+      "taskIds": [
+        "sprint-2-task-1",
+        "sprint-2-task-2",
+        "sprint-2-task-3",
+        "sprint-2-task-4",
+        "sprint-2-task-5",
+        "sprint-2-task-6",
+        "sprint-2-task-7"
+      ]
+    },
+    {
+      "id": "sprint-3",
+      "title": "Inspection Tools (Visual Tree, Find Element, Properties, Ancestors)",
+      "description": "Implement the core inspection tools \u2014 the read-only tools that let agents explore the visual tree. This is the most important tool category.\r\n\r\n- [ ] Implement \u0060AvaloniaInspector.GetAppMetadataAsync()\u0060 \u2014 dispatch to UI thread, read process info (\u0060Process.GetCurrentProcess()\u0060), main window title/dimensions from \u0060GetMainWindow()\u0060, Avalonia version from \u0060typeof(Application).Assembly.GetName().Version\u0060, .NET version from \u0060Environment.Version\u0060. Return \u0060AppMetadata\u0060 record.\r\n- [ ] Implement internal \u0060BuildTreeNode(Visual visual, int currentDepth, int maxDepth)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 recursive builder. Extract: \u0060Type\u0060 = \u0060visual.GetType().Name\u0060, \u0060Name\u0060 = \u0060(visual as Control)?.Name\u0060, \u0060Bounds\u0060 from \u0060visual.Bounds\u0060 (x, y, width, height), \u0060IsVisible\u0060/\u0060IsEnabled\u0060 from control properties (default true for non-Control visuals), \u0060Opacity\u0060, \u0060IsFocused\u0060 from \u0060(visual as InputElement)?.IsFocused\u0060, \u0060IsPointerOver\u0060 from \u0060(visual as InputElement)?.IsPointerOver\u0060, \u0060Classes\u0060 from \u0060(visual as StyledElement)?.Classes\u0060 (both style classes and pseudo-classes as strings), \u0060Children\u0060 recursively (stop at maxDepth). All on UI thread.\r\n- [ ] Implement \u0060AvaloniaInspector.GetVisualTreeAsync(maxDepth, elementName, ct)\u0060 \u2014 dispatch to UI thread. If \u0060elementName\u0060 provided, resolve element first, else use main window. Call \u0060BuildTreeNode\u0060. Return \u0060VisualTreeNode\u0060. Clamp \u0060maxDepth\u0060 to range [1, 50].\r\n- [ ] Implement \u0060AvaloniaInspector.FindElementAsync(name, typeName, className, selector, maxResults, ct)\u0060 \u2014 dispatch to UI thread. Walk tree from main window. For \u0060selector\u0060, implement simple parser: \u0060\u0022Button#myBtn\u0022\u0060 = type Button with name myBtn, \u0060\u0022TextBox.error\u0022\u0060 = TextBox with class \u0022error\u0022, \u0060\u0022#myBtn\u0022\u0060 = any type with name myBtn, \u0060\u0022.error\u0022\u0060 = any type with class error. Return list of \u0060FindElementResult\u0060 with path and elementId. Limit to \u0060maxResults\u0060.\r\n- [ ] Implement \u0060AvaloniaInspector.GetAncestorChainAsync(elementName, ct)\u0060 \u2014 dispatch to UI thread. Find element by name, then walk \u0060VisualParent\u0060 chain to root. Return array of \u0060VisualTreeNode\u0060 (one per ancestor, no children populated \u2014 just identity/bounds).\r\n- [ ] Implement \u0060AvaloniaInspector.GetElementPropertiesAsync(elementName, typeName, path, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Extract all properties defined in \u0060ElementProperties\u0060 record: read Avalonia dependency properties, convert brushes to \u0060.ToString()\u0060, read margin/padding as comma-separated values, read DataContext type name. Return \u0060ElementProperties\u0060.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Tools/MetadataTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with \u0060[McpServerTool(Name = \u0022get_app_metadata\u0022)]\u0060 method. Takes \u0060IAvaloniaInspector\u0060, calls \u0060GetAppMetadataAsync\u0060, serializes with \u0060JsonOptions.Default\u0060. Wrap in try/catch returning error JSON on failure.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Tools/InspectionTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with 4 tools: \u0060get_visual_tree\u0060, \u0060find_element\u0060, \u0060get_element_properties\u0060, \u0060get_ancestor_chain\u0060. Each takes \u0060IAvaloniaInspector\u0060 \u002B parameters, delegates to inspector, serializes result. All wrapped in try/catch. Verify solution builds. Add unit tests for tool classes in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/InspectionToolsTests.cs\u0060 and \u0060MetadataToolsTests.cs\u0060 \u2014 mock \u0060IAvaloniaInspector\u0060, verify JSON serialization and error handling.",
+      "taskIds": [
+        "sprint-3-task-1",
+        "sprint-3-task-2",
+        "sprint-3-task-3",
+        "sprint-3-task-4",
+        "sprint-3-task-5",
+        "sprint-3-task-6",
+        "sprint-3-task-7",
+        "sprint-3-task-8"
+      ]
+    },
+    {
+      "id": "sprint-4",
+      "title": "Screenshot Tool",
+      "description": "Implement the screenshot capture tool using Avalonia\u0027s \u0060RenderTargetBitmap\u0060.\r\n\r\n- [ ] Implement internal \u0060RenderToBase64Async(Visual visual, double scale)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 dispatch to UI thread. Create \u0060RenderTargetBitmap\u0060 with \u0060new RenderTargetBitmap(new PixelSize((int)(bounds.Width * scale), (int)(bounds.Height * scale)), new Vector(96 * scale, 96 * scale))\u0060. Call \u0060renderTarget.Render(visual)\u0060. Save to \u0060MemoryStream\u0060 as PNG via \u0060renderTarget.Save(stream)\u0060. Convert to base64. Return tuple \u0060(base64String, pixelWidth, pixelHeight)\u0060.\r\n- [ ] Implement \u0060AvaloniaInspector.TakeScreenshotAsync(elementName, scaleFactor, ct)\u0060 \u2014 if \u0060elementName\u0060 is null, capture main window; else resolve element. Validate \u0060scaleFactor\u0060 in [0.5, 3.0]. Call \u0060RenderToBase64Async\u0060. Return \u0060(base64, width, height)\u0060 tuple. Handle errors: if visual has zero size, return error.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Tools/ScreenshotTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with \u0060[McpServerTool(Name = \u0022take_screenshot\u0022)]\u0060 method. Takes \u0060IAvaloniaInspector\u0060, \u0060elementName?\u0060, \u0060scaleFactor?\u0060. Calls \u0060TakeScreenshotAsync\u0060. Returns JSON: \u0060{\u0022base64Png\u0022: \u0022...\u0022, \u0022width\u0022: N, \u0022height\u0022: N}\u0060. Try/catch wrapper.\r\n- [ ] Create unit tests in \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/ScreenshotToolsTests.cs\u0060 \u2014 mock inspector returning a known base64 string. Verify JSON structure. Test error cases (element not found). Verify solution builds and tests pass.",
+      "taskIds": [
+        "sprint-4-task-1",
+        "sprint-4-task-2",
+        "sprint-4-task-3",
+        "sprint-4-task-4"
+      ]
+    },
+    {
+      "id": "sprint-5",
+      "title": "Basic Interaction Tools (Click, Type, Control State)",
+      "description": "Implement the three core interaction tools. These require creating mock pointer infrastructure and understanding Avalonia\u0027s event system.\r\n\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Services/MockPointer.cs\u0060 \u2014 internal sealed class implementing \u0060Avalonia.Input.IPointer\u0060. Properties: \u0060Id = 0\u0060, \u0060Captured = null\u0060, \u0060Type = PointerType.Mouse\u0060. Methods: \u0060Capture(IInputElement?)\u0060 \u2014 no-op. This is needed because Avalonia pointer event constructors require an \u0060IPointer\u0060 instance. Namespace: \u0060Six.Avalonia.Mcp.Services\u0060.\r\n- [ ] Implement \u0060AvaloniaInspector.SimulateClickAsync(elementName, button, x, y, modifiers, clickCount, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Calculate position: if x/y null, use center of element bounds. Map \u0060button\u0060 string to \u0060MouseButton\u0060 enum. Map \u0060modifiers\u0060 string to \u0060KeyModifiers\u0060 (parse \u0022ctrl\u0022, \u0022shift\u0022, \u0022alt\u0022). Create \u0060PointerPointProperties(rawModifiers, PointerUpdateKind.LeftButtonPressed)\u0060. Construct \u0060PointerPressedEventArgs\u0060 with positional args per Avalonia 11.3.11 API (source, new MockPointer(), rootVisual, position, timestamp, properties, keyModifiers, clickCount). Call \u0060element.RaiseEvent(pressArgs)\u0060. Then construct \u0060PointerReleasedEventArgs\u0060 and call \u0060element.RaiseEvent(releaseArgs)\u0060. Return \u0060InteractionResult\u0060 with post-state.\r\n- [ ] Implement \u0060AvaloniaInspector.SimulateTypeAsync(elementName, text, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Focus it first via \u0060(element as InputElement)?.Focus()\u0060. For each char in text: if printable, raise \u0060TextInputEvent\u0060 with the char. If special key (detect \u0060\\b\u0060 for Backspace, \u0060\\n\u0060 for Enter, \u0060\\t\u0060 for Tab), raise \u0060KeyDown\u0060/\u0060KeyUp\u0060 with the corresponding \u0060Key\u0060 enum value. Return \u0060InteractionResult\u0060 with post-state.\r\n- [ ] Implement \u0060AvaloniaInspector.SetControlStateAsync(elementName, stateType, value, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Parse \u0060stateType\u0060: \u0060\u0022focus\u0022\u0060 \u2192 call \u0060Focus()\u0060 or blur, \u0060\u0022enabled\u0022\u0060 \u2192 set \u0060IsEnabled\u0060, \u0060\u0022visible\u0022\u0060 \u2192 set \u0060IsVisible\u0060. Return \u0060InteractionResult\u0060 with new state values.\r\n- [ ] Implement internal \u0060ParseKeyCombination(string keys)\u0060 on \u0060AvaloniaInspector\u0060 \u2014 parse key combo strings like \u0060\u0022Ctrl\u002BS\u0022\u0060, \u0060\u0022Ctrl\u002BShift\u002BZ\u0022\u0060, \u0060\u0022Alt\u002BF4\u0022\u0060. Split on \u0060\u002B\u0060, identify modifiers (Ctrl/Shift/Alt/Meta), remaining part is primary key parsed via \u0060Enum.TryParse\u003CKey\u003E\u0060. Return \u0060(KeyModifiers, Key)\u0060 tuple. Mark internal.\r\n- [ ] Create \u0060libs/Six.Avalonia.Mcp/src/Tools/InteractionTools.cs\u0060 \u2014 \u0060[McpServerToolType]\u0060 static class with 3 initial tools: \u0060simulate_click\u0060, \u0060simulate_type\u0060, \u0060set_control_state\u0060. Each takes \u0060IAvaloniaInspector\u0060 \u002B parameters, delegates to inspector, serializes result. Try/catch wrapper.\r\n- [ ] Create unit tests: \u0060tests/Six.Avalonia.Mcp.Tests.Unit/src/Tools/InteractionToolsTests.cs\u0060 \u2014 mock inspector, verify delegation and JSON output for click/type/state tools. Also test \u0060ParseKeyCombination\u0060 directly (internal access). Test edge cases: unknown button name, empty text, invalid state type. Verify solution builds and tests pass.",
+      "taskIds": [
+        "sprint-5-task-1",
+        "sprint-5-task-2",
+        "sprint-5-task-3",
+        "sprint-5-task-4",
+        "sprint-5-task-5",
+        "sprint-5-task-6",
+        "sprint-5-task-7"
+      ]
+    },
+    {
+      "id": "sprint-6",
+      "title": "Advanced Interaction Tools (Hover, Drag, Keyboard Shortcuts)",
+      "description": "Implement the remaining three interaction tools.\r\n\r\n- [ ] Implement \u0060AvaloniaInspector.SimulateHoverAsync(elementName, exitAfter, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Construct \u0060PointerEventArgs\u0060 with \u0060PointerEntered\u0060 routed event (source, MockPointer, rootVisual, center position, timestamp, properties, modifiers). Call \u0060element.RaiseEvent(enterArgs)\u0060. Then construct \u0060PointerMoved\u0060 event and raise it. If \u0060exitAfter\u0060 is true, construct and raise \u0060PointerExited\u0060 event. Return \u0060InteractionResult\u0060.\r\n- [ ] Implement \u0060AvaloniaInspector.SimulateDragAsync(elementName, startX, startY, endX, endY, button, steps, ct)\u0060 \u2014 dispatch to UI thread. Resolve element. Create \u0060PointerPressedEventArgs\u0060 at (startX, startY) and raise. Then generate \u0060steps\u0060 intermediate points linearly interpolated from start to end, raise \u0060PointerMoved\u0060 for each. Finally raise \u0060PointerReleasedEventArgs\u0060 at (endX, endY). Return \u0060InteractionResult\u0060.\r\n- [ ] Implement \u0060AvaloniaInspector.SimulateKeyboardShortcutAsync(keys, elementName, ct)\u0060 \u2014 dispatch to UI thread. If \u0060elementName\u0060 provided, resolve and focus it; else use currently focused element or main window. Call \u0060ParseKeyCombination(keys)\u0060. Raise \u0060KeyDown\u0060 with modifiers \u002B primary key. Then raise \u0060KeyUp\u0060 for primary key and modifiers. Return \u0060InteractionResult\u0060.\r\n- [ ] Add \u0060simulate_hover\u0060, \u0060simulate_drag\u0060, \u0060simulate_keyboard_shortcut\u0060 tools to \u0060InteractionTools.cs\u0060 \u2014 3 new \u0060[McpServerTool]\u0060 methods delegating to the inspector. Wrap in try/catch.\r\n- [ ] Create/extend unit tests in \u0060InteractionToolsTests.cs\u0060 \u2014 test hover, drag, and keyboard shortcut tool methods with mocked inspector. Test \u0060ParseKeyCombination\u0060 edge cases: single key (\u0022F5\u0022), modifier-only (\u0022Ctrl\u0022), triple modifier (\u0022Ctrl\u002BShift\u002BAlt\u002BS\u0022), case insensitivity. Verify solution builds and all tests pass.",
+      "taskIds": [
+        "sprint-6-task-1",
+        "sprint-6-task-2",
+        "sprint-6-task-3",
+        "sprint-6-task-4",
+        "sprint-6-task-5"
+      ]
+    },
+    {
+      "id": "sprint-7",
+      "title": "Demo App UI and End-to-End Verification",
+      "description": "Build a rich demo app UI and verify the complete MCP server works end-to-end.\r\n\r\n- [ ] Update \u0060apps/Six.Avalonia.Mcp/Views/MainWindow.axaml\u0060 \u2014 add a testbed UI with named controls. Include: a \u0060TextBox\u0060 (x:Name=\u0022InputTextBox\u0022), a \u0060Button\u0060 (x:Name=\u0022ActionButton\u0022, Content=\u0022Click Me\u0022), a \u0060CheckBox\u0060 (x:Name=\u0022ToggleCheckBox\u0022), a \u0060Slider\u0060 (x:Name=\u0022ValueSlider\u0022), a \u0060ComboBox\u0060 (x:Name=\u0022SelectComboBox\u0022), a \u0060ListBox\u0060 (x:Name=\u0022ItemListBox\u0022), a \u0060TextBlock\u0060 (x:Name=\u0022StatusText\u0022, Text=\u0022Ready\u0022), and layout panels (Grid, StackPanel). All controls should have meaningful x:Name values for agent discovery.\r\n- [ ] Update \u0060apps/Six.Avalonia.Mcp/ViewModels/MainWindowViewModel.cs\u0060 \u2014 add properties: \u0060StatusMessage\u0060 (string, bound to StatusText), \u0060InputText\u0060 (string, bound to InputTextBox), \u0060IsToggled\u0060 (bool, bound to CheckBox), \u0060SliderValue\u0060 (double, bound to Slider), \u0060Items\u0060 (ObservableCollection\u003Cstring\u003E). Add \u0060OnActionButtonClick\u0060 command handler that updates \u0060StatusMessage\u0060 to \u0022Button clicked at {timestamp}\u0022. Wire up INotifyPropertyChanged.\r\n- [ ] Update \u0060apps/Six.Avalonia.Mcp/Views/MainWindow.axaml.cs\u0060 \u2014 wire up button click handler to ViewModel command. Verify data bindings work (compiled bindings enabled).\r\n- [ ] Verify the complete solution builds: \u0060dotnet build Six.Avalonia.Mcp.slnx\u0060. Fix any compilation errors.\r\n- [ ] Run all unit tests: \u0060dotnet test Six.Avalonia.Mcp.slnx --collect:\u0022XPlat Code Coverage\u0022\u0060. Verify \u2265 80% coverage threshold is met. Fix any failing tests.\r\n- [ ] Verify MCP tool discovery works: confirm that running the demo app outputs MCP JSON-RPC responses on stdout when MCP initialize/list_tools requests are sent on stdin. Document any issues found.",
+      "taskIds": [
+        "sprint-7-task-1",
+        "sprint-7-task-2",
+        "sprint-7-task-3",
+        "sprint-7-task-4",
+        "sprint-7-task-5",
+        "sprint-7-task-6"
+      ]
+    }
+  ],
+  "currentSprintIndex": 7,
+  "currentTaskId": "sprint-7-task-6",
+  "completedCount": 45,
+  "totalCount": 45,
+  "completionPercent": 100,
+  "hasSprints": true
+}

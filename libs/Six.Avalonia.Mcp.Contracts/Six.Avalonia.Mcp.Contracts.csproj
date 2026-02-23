@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Six.Avalonia.Mcp.Contracts</RootNamespace>
+        <Description>Shared DTOs, message envelopes, and hub interfaces for Six.Avalonia.Mcp</Description>
+        <PackageTags>avalonia;mcp;model-context-protocol;contracts;signalr</PackageTags>
+
+        <Version>$(SixVersion)</Version>
+    </PropertyGroup>
+
+</Project>

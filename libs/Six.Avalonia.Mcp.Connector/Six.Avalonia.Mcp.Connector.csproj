@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Six.Avalonia.Mcp.Connector</RootNamespace>
+        <Description>SignalR connector and Avalonia inspector for apps to communicate with the Six MCP Server</Description>
+        <PackageTags>avalonia;mcp;model-context-protocol;signalr;connector;inspector</PackageTags>
+
+        <Version>$(SixVersion)</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Six.Avalonia.Mcp.Tests.Unit" />
+        <InternalsVisibleTo Include="Six.Avalonia.Mcp.Server.Tests.Unit" />
+        <InternalsVisibleTo Include="Six.Avalonia.Mcp.Connector.Tests.Unit" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.3.11"/>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.2"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.2"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.2"/>
+        <PackageReference Include="Polly.Core" Version="8.5.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Six.Avalonia.Mcp.Contracts\Six.Avalonia.Mcp.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Six.Avalonia.Mcp.App.Views.TestDialog"
+        Title="Test Dialog"
+        Width="350" Height="200"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+    <StackPanel Margin="20" Spacing="12">
+        <TextBlock x:Name="DialogTitle" Text="Enter a value" FontSize="16" FontWeight="SemiBold"/>
+        <TextBox x:Name="DialogInput" Watermark="Type here..."/>
+        <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Right">
+            <Button x:Name="DialogOkButton" Content="OK" Click="OkButton_Click"/>
+            <Button x:Name="DialogCancelButton" Content="Cancel" Click="CancelButton_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

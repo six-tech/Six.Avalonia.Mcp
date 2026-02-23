@@ -1,0 +1,30 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+        <Platform Name="x64" />
+        <Platform Name="x86" />
+    </Configurations>
+    <Folder Name="/Libs/">
+        <File Path="libs/Directory.Build.props" />
+        <File Path="libs/Directory.Build.targets" />
+        <Project Path="libs/Six.Avalonia.Mcp.Connector/Six.Avalonia.Mcp.Connector.csproj" />
+        <Project Path="libs/Six.Avalonia.Mcp.Contracts/Six.Avalonia.Mcp.Contracts.csproj" />
+    </Folder>
+    <Folder Name="/Apps/">
+        <File Path="apps/Directory.Build.props" />
+        <Project Path="apps/McpDemo/McpDemo.csproj" />
+        <Project Path="apps/Six.Avalonia.Mcp.Server/Six.Avalonia.Mcp.Server.csproj" />
+        <Project Path="apps/Six.Avalonia.Mcp.TestRunner/Six.Avalonia.Mcp.TestRunner.csproj" />
+    </Folder>
+    <Folder Name="/Tests/">
+        <File Path="tests/Directory.Build.props" />
+        <Project Path="tests/Six.Avalonia.Mcp.Connector.Tests.Unit/Six.Avalonia.Mcp.Connector.Tests.Unit.csproj" />
+        <Project Path="tests/Six.Avalonia.Mcp.Server.Tests.Unit/Six.Avalonia.Mcp.Server.Tests.Unit.csproj" />
+        <Project Path="tests/Six.Avalonia.Mcp.Tests.Unit/Six.Avalonia.Mcp.Tests.Unit.csproj" />
+    </Folder>
+    <Folder Name="/_config/">
+        <File Path="CLAUDE.md" />
+        <File Path="Directory.Build.props" />
+        <File Path="README.md" />
+    </Folder>
+</Solution>

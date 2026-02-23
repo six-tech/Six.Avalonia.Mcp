@@ -1,0 +1,17 @@
+{
+  "runs": [
+    {
+      "slug": "avalonia-runtime-mcp-server-for-ai-agents-with-i",
+      "prdFiles": [
+        ".wig/specs/avalonia-runtime-mcp-server-for-ai-agents-with-i/implementation-plan.md"
+      ],
+      "status": "completed",
+      "stopReason": "All sprints completed",
+      "startedAt": "2026-02-17T17:56:38.2571187Z",
+      "completedAt": "2026-02-17T20:06:56.9284143Z",
+      "totalTasks": 45,
+      "completedTasks": 45,
+      "finalIteration": 7
+    }
+  ]
+}

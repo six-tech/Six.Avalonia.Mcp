@@ -1,0 +1,302 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Six.Avalonia.Mcp.App.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="700"
+        x:Class="Six.Avalonia.Mcp.App.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="McpDemo"
+        Width="1280" MinWidth="600" MinHeight="500">
+
+	<Design.DataContext>
+		<vm:MainWindowViewModel />
+	</Design.DataContext>
+
+	<Grid RowDefinitions="Auto,*,Auto" Margin="16" x:Name="RootGrid">
+
+		<!-- Header -->
+		<TextBlock Grid.Row="0"
+		           Text="Six Avalonia MCP Testbed"
+		           FontSize="24" FontWeight="Bold"
+		           Margin="0,0,0,16" />
+
+		<!-- Main Content -->
+		<Grid Grid.Row="1" ColumnDefinitions="*,*" x:Name="ContentGrid">
+
+			<!-- Left Column -->
+			<ScrollViewer Grid.Column="0" Margin="0,0,8,0">
+				<StackPanel Spacing="16" x:Name="LeftPanel">
+
+					<!-- Buttons Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Buttons" FontSize="16" FontWeight="SemiBold" />
+
+						<Button x:Name="ActionButton"
+						        Content="Click Me"
+						        Click="ActionButton_Click"
+						        HorizontalAlignment="Left" />
+
+						<Button x:Name="CommandButton"
+						        Content="Increment"
+						        Command="{Binding IncrementCommand}"
+						        HorizontalAlignment="Left" />
+
+						<TextBlock x:Name="ClickCountText"
+						           Text="{Binding ClickCountMessage}" />
+
+						<CheckBox x:Name="ToggleCheckBox"
+						          Content="Toggle Option"
+						          IsChecked="{Binding IsToggled}" />
+
+						<StackPanel Spacing="4">
+							<RadioButton x:Name="RadioOption1"
+							             Content="Option 1"
+							             GroupName="TestGroup"
+							             IsChecked="True" />
+							<RadioButton x:Name="RadioOption2"
+							             Content="Option 2"
+							             GroupName="TestGroup" />
+							<RadioButton x:Name="RadioOption3"
+							             Content="Option 3"
+							             GroupName="TestGroup" />
+						</StackPanel>
+
+						<ToggleButton x:Name="TestToggleButton"
+						              Content="Toggle Me" />
+
+						<Expander x:Name="TestExpander" Header="Details">
+							<TextBlock Text="Expanded content here" Margin="8" />
+						</Expander>
+					</StackPanel>
+
+					<!-- Windows Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Windows" FontSize="16" FontWeight="SemiBold" />
+
+						<StackPanel Orientation="Horizontal" Spacing="8">
+							<Button x:Name="OpenDialogButton"
+							        Content="Open Dialog"
+							        Click="OpenDialogButton_Click" />
+							<Button x:Name="OpenWindowButton"
+							        Content="Open Window"
+							        Click="OpenWindowButton_Click" />
+						</StackPanel>
+
+						<TextBlock x:Name="DialogResultText"
+						           Text="{Binding DialogResult}" />
+					</StackPanel>
+
+					<!-- Context Menu Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Context Menu" FontSize="16" FontWeight="SemiBold" />
+
+						<Border x:Name="ContextMenuTarget"
+						        Width="100" Height="100"
+						        Background="DimGray"
+						        CornerRadius="4"
+						        HorizontalAlignment="Left">
+							<Border.ContextMenu>
+								<ContextMenu>
+									<MenuItem x:Name="CopyMenuItem"
+									          Header="Copy"
+									          Command="{Binding CopyCommand}" />
+									<MenuItem x:Name="PasteMenuItem"
+									          Header="Paste"
+									          Command="{Binding PasteCommand}" />
+									<MenuItem x:Name="DeleteMenuItem"
+									          Header="Delete"
+									          Command="{Binding DeleteCommand}" />
+								</ContextMenu>
+							</Border.ContextMenu>
+							<TextBlock Text="Right-click"
+							           HorizontalAlignment="Center"
+							           VerticalAlignment="Center" />
+						</Border>
+
+						<TextBlock x:Name="ContextMenuResultText"
+						           Text="{Binding ContextMenuResult}" />
+					</StackPanel>
+
+					<!-- Popups & Flyouts Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Popups &amp; Flyouts" FontSize="16" FontWeight="SemiBold" />
+
+						<Button x:Name="FlyoutButton"
+						        Content="Show Flyout"
+						        HorizontalAlignment="Left">
+							<Button.Flyout>
+								<Flyout>
+									<StackPanel Spacing="8" Margin="8">
+										<TextBlock x:Name="FlyoutTitle" Text="Flyout Content" FontWeight="SemiBold" />
+										<TextBlock Text="This is a flyout popup" />
+									</StackPanel>
+								</Flyout>
+							</Button.Flyout>
+						</Button>
+
+						<Button x:Name="MenuFlyoutButton"
+						        Content="Show Menu"
+						        HorizontalAlignment="Left">
+							<Button.Flyout>
+								<MenuFlyout>
+									<MenuItem x:Name="MenuFlyoutItem1" Header="Action 1" />
+									<MenuItem x:Name="MenuFlyoutItem2" Header="Action 2" />
+									<MenuItem x:Name="MenuFlyoutItem3" Header="Action 3" />
+								</MenuFlyout>
+							</Button.Flyout>
+						</Button>
+
+						<DatePicker x:Name="TestDatePicker"
+						            HorizontalAlignment="Left" />
+					</StackPanel>
+
+				</StackPanel>
+			</ScrollViewer>
+
+			<!-- Right Column -->
+			<ScrollViewer Grid.Column="1" Margin="8,0,0,0">
+				<StackPanel Spacing="16" x:Name="RightPanel">
+
+					<!-- Input Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Input" FontSize="16" FontWeight="SemiBold" />
+
+						<TextBox x:Name="InputTextBox"
+						         Watermark="Type something here..."
+						         Text="{Binding InputText}" />
+
+						<TextBlock x:Name="InputMirrorText"
+						           Text="{Binding InputText}" />
+
+						<StackPanel Spacing="4">
+							<TextBlock Text="Select an item" />
+							<ComboBox x:Name="SelectComboBox"
+							          PlaceholderText="Choose..."
+							          SelectedIndex="0">
+								<ComboBoxItem Content="Option A" />
+								<ComboBoxItem Content="Option B" />
+								<ComboBoxItem Content="Option C" />
+							</ComboBox>
+						</StackPanel>
+
+						<StackPanel Spacing="4">
+							<TextBlock Text="Slider Value" />
+							<Slider x:Name="ValueSlider"
+							        Minimum="0" Maximum="100"
+							        Value="{Binding SliderValue}"
+							        TickFrequency="10"
+							        IsSnapToTickEnabled="True" />
+						</StackPanel>
+					</StackPanel>
+
+					<!-- Lists Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Lists" FontSize="16" FontWeight="SemiBold" />
+
+						<ListBox x:Name="ItemListBox"
+						         ItemsSource="{Binding Items}"
+						         MaxHeight="200" />
+
+						<TreeView x:Name="TestTreeView">
+							<TreeViewItem x:Name="TreeRoot" Header="Root" IsExpanded="True">
+								<TreeViewItem x:Name="TreeChild1" Header="Child 1" />
+								<TreeViewItem x:Name="TreeChild2" Header="Child 2" />
+							</TreeViewItem>
+						</TreeView>
+					</StackPanel>
+
+					<!-- Progress & Numeric Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Progress &amp; Numeric" FontSize="16" FontWeight="SemiBold" />
+
+						<ProgressBar x:Name="TestProgressBar"
+						             Minimum="0" Maximum="100"
+						             Value="{Binding ProgressValue}" />
+
+						<NumericUpDown x:Name="TestNumericUpDown"
+						               Minimum="0" Maximum="100"
+						               Value="{Binding NumericValue}" />
+					</StackPanel>
+
+					<!-- Tab Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Tabs" FontSize="16" FontWeight="SemiBold" />
+
+						<TabControl x:Name="TestTabControl">
+							<TabItem x:Name="Tab1" Header="Tab 1">
+								<TextBlock Text="Content of Tab 1" Margin="8" />
+							</TabItem>
+							<TabItem x:Name="Tab2" Header="Tab 2">
+								<TextBlock Text="Content of Tab 2" Margin="8" />
+							</TabItem>
+							<TabItem x:Name="Tab3" Header="Tab 3">
+								<TextBlock Text="Content of Tab 3" Margin="8" />
+							</TabItem>
+						</TabControl>
+					</StackPanel>
+
+					<!-- Scrollable List Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Scrollable List" FontSize="16" FontWeight="SemiBold" />
+
+						<ListBox x:Name="ScrollableListBox"
+						         ItemsSource="{Binding ScrollableItems}"
+						         MaxHeight="150" />
+					</StackPanel>
+
+					<!-- Drag Target Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Drag Target" FontSize="16" FontWeight="SemiBold" />
+
+						<Canvas x:Name="DragCanvas"
+						        Width="300" Height="200"
+						        Background="DimGray">
+							<Border x:Name="DraggableThumb"
+							        Width="40" Height="40"
+							        Background="CornflowerBlue"
+							        CornerRadius="4"
+							        Canvas.Left="{Binding ThumbX}"
+							        Canvas.Top="{Binding ThumbY}" />
+						</Canvas>
+					</StackPanel>
+
+					<!-- Hover Target Section -->
+					<StackPanel Spacing="8">
+						<TextBlock Text="Hover Target" FontSize="16" FontWeight="SemiBold" />
+
+						<Border x:Name="HoverTarget"
+						        Width="100" Height="50"
+						        Background="DimGray"
+						        CornerRadius="4"
+						        HorizontalAlignment="Left"
+						        PointerEntered="HoverTarget_PointerEntered"
+						        PointerExited="HoverTarget_PointerExited">
+							<TextBlock x:Name="HoverStatusText"
+							           Text="{Binding HoverStatus}"
+							           HorizontalAlignment="Center"
+							           VerticalAlignment="Center" />
+						</Border>
+					</StackPanel>
+
+				</StackPanel>
+			</ScrollViewer>
+
+		</Grid>
+
+		<!-- Status Bar -->
+		<Border Grid.Row="2"
+		        Background="{DynamicResource SystemControlBackgroundChromeMediumBrush}"
+		        CornerRadius="4"
+		        Padding="8"
+		        Margin="0,16,0,0"
+		        x:Name="StatusBar">
+			<TextBlock x:Name="StatusText"
+			           Text="{Binding StatusMessage}"
+			           FontSize="13" />
+		</Border>
+
+	</Grid>
+
+</Window>
